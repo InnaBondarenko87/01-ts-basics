@@ -1,7 +1,4 @@
-type Arr = number[] | string[] | boolean[];
-// let arr: Arr = "loading";
-
-function getFirstElement(arr: Arr) {
+function getFirstElement<T>(arr: T[]): T {
   return arr[0];
 }
 
